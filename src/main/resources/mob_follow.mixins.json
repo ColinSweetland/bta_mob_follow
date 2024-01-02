@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "csweetla.mob_follow.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EntityPathfinderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

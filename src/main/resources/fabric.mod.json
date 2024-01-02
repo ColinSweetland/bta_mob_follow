@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mob_follow",
+  "version": "${version}",
+
+  "name": "Mob Follow",
+  "description": "This mod allows animals to be lead with a configurable item.",
+  "authors": [
+    "csweetla"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"csweetla.mob_follow.MobFollow"
+    ]
+  },
+  "mixins": [
+		"mob_follow.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
+  }
+}
